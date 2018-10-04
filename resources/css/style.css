@@ -1,6 +1,6 @@
 html {
   font-size: 16px;
-  font-family:
+  font-family: "Open Sans", sans-serif;
 }
 
 
@@ -41,7 +41,7 @@ nav a {
 }
 
 .jumbo-text {
-  max-width: 30%; 
+  max-width: 30%;
 }
 
 .jumbo-text h2 {
@@ -66,10 +66,11 @@ nav a {
 
 .big {
   padding: 2rem 1.5rem;
+  width: 60%
 }
 
 .big img {
-  width: 60%;
+width: 100%;
 }
 
 .big h2 {
@@ -86,6 +87,7 @@ nav a {
 
 .box {
   display: flex;
+  align-items: center;
 }
 
 .box img {
@@ -94,7 +96,38 @@ nav a {
   margin: 1rem 1rem;
 }
 
+/*learning content*/
+.learning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.learning h2 {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 4.5rem;
+}
+
+.course-text {
+  margin: 1rem 1rem;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.course {
+  display: inline-flex;
+  flex-flow: column wrap;
+}
+
+.course img {
+  height: auto;
+}
 
 div {
   border: blue 1px solid;
