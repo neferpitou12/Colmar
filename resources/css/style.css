@@ -1,0 +1,17 @@
+/*header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  padding: 0 24px;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin-right: 16px;
+}
