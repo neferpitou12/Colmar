@@ -3,6 +3,18 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
+h2, h3 {
+  font-family: "Bree Serif", sans-serif;
+}
+
+h3 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  margin-bottom: 0.5rem;
+}
 
 /*header*/
 header {
@@ -17,6 +29,11 @@ header {
   display: flex;
   align-items: center;
   text-transform: uppercase;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
 }
 
 .logo span {
@@ -57,6 +74,8 @@ nav a {
   color: white;
   padding: 0.5rem 0;
   text-align: center;
+  border-radius: 5px;
+
 }
 
 /*information*/
@@ -75,6 +94,7 @@ width: 100%;
 
 .big h2 {
   margin: 2rem 0 1.5rem 0;
+  font-size: 2.5rem;
 }
 
 .big h5 {
@@ -104,7 +124,7 @@ width: 100%;
 }
 
 .learning h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 2rem 0;
 }
 
@@ -115,20 +135,28 @@ width: 100%;
 }
 
 .course-text {
-  margin: 1rem 1rem;
+  margin: 1rem 0 1.5rem 1rem;
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
+}
+
+.course-text h4 {
+  text-transform: uppercase;
+
 }
 
 .course {
-  display: inline-flex;
+  display: flex;
   flex-flow: column wrap;
+  margin: 0 1rem 1rem 1rem;
+  max-width: 535px;
 }
 
 .course img {
   height: auto;
 }
 
+/*extra*/
 div {
   border: blue 1px solid;
 }
