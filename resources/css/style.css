@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  font-family:
 }
 
 
@@ -7,7 +8,7 @@ html {
 header {
   display: flex;
   justify-content: space-between;
-  height: 8rem;
+  height: 4rem;
   padding: 0 1.5rem;
   align-items: center;
 }
@@ -15,6 +16,11 @@ header {
 .logo {
   display: flex;
   align-items: center;
+  text-transform: uppercase;
+}
+
+.logo span {
+  font-weight: bold;
 }
 
 nav a {
@@ -25,6 +31,7 @@ nav a {
 .jumbotron {
   display: flex;
   align-items: center;
+  background-color: rgba(25, 196, 255, 1);
 }
 
 .jumbotron img {
@@ -33,9 +40,23 @@ nav a {
   margin: 2rem 1.5rem;
 }
 
+.jumbo-text {
+  max-width: 30%; 
+}
+
+.jumbo-text h2 {
+  font-size: 3rem;
+}
+
+.jumbo-text p {
+  margin: 1.5rem 0;
+}
+
 .button {
-  background-color: ;
-  color: ;
+  background-color: rgba(255, 156, 52, 1);
+  color: white;
+  padding: 0.5rem 0;
+  text-align: center;
 }
 
 /*information*/
@@ -43,10 +64,34 @@ nav a {
   display: flex;
 }
 
-.big img {
-  max-width: 60%;
-  margin: 2rem 1.5rem;
+.big {
+  padding: 2rem 1.5rem;
+}
 
+.big img {
+  width: 60%;
+}
+
+.big h2 {
+  margin: 2rem 0 1.5rem 0;
+}
+
+.big h5 {
+  margin-top: 2rem;
+}
+
+.small {
+  width: 40%;
+}
+
+.box {
+  display: flex;
+}
+
+.box img {
+  height: auto;
+  width: 35%;
+  margin: 1rem 1rem;
 }
 
 
