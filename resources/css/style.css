@@ -162,6 +162,11 @@ width: 100%;
   margin-top: 1rem;
 }
 
+.box a:hover {
+  transition: font-weight 2s linear;
+  font-weight: bolder;
+}
+
 .small .box:nth-child(1n+2) {
   border-top: rgba(178, 91, 0, 0.2) 1.5px solid;
 }
