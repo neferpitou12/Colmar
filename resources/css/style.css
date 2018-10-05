@@ -42,12 +42,23 @@ header {
 }
 
 .logo span {
+  color: black;
   font-weight: bold;
+}
+
+.logo h1 {
+  color: grey;
 }
 
 nav a {
   margin-right: 1rem;
 }
+
+@media only screen and (max-width: 480px) {
+  header .logo, header nav {
+    display: none;
+  }
+  }
 
 /*jumbotron*/
 .jumbotron {
@@ -81,6 +92,15 @@ nav a {
   padding: 0.5rem 0.5rem;
   text-align: center;
   border-radius: 5px;
+}
+
+.button:hover {
+  transition: background-color 0.2s ease-in 0.1s;
+  background-color: rgb(0, 133, 178);
+}
+
+.button a {
+  color: white;
 }
 
 /*information*/
@@ -197,6 +217,10 @@ width: 100%;
 
 .exhibit {
   display: flex;
+}
+
+.thesis {
+  margin-bottom: 2rem;
 }
 
 .thesis h2 {
