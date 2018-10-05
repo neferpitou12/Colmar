@@ -9,7 +9,7 @@ h2, h3 {
 
 h3 {
   font-size: 1.75rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 h4 {
@@ -130,6 +130,10 @@ width: 100%;
   color: rgb(178, 91, 0);
 }
 
+.text p {
+  margin: 0.5rem 0 2rem 0;
+}
+
 /*learning content*/
 .learning {
   display: flex;
@@ -147,6 +151,7 @@ width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 2rem;
 }
 
 .course-text {
@@ -179,6 +184,7 @@ width: 100%;
 
 .big video {
   width: 100%;
+  margin-bottom: 1rem;
 }
 
 .urban h3 {
