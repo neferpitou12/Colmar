@@ -229,7 +229,7 @@ width: 100%;
 .learning {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   background-color: rgba(159, 166, 189, 0.2);
 }
 
@@ -269,6 +269,33 @@ width: 100%;
 
 .course img {
   height: auto;
+}
+
+.mobcourse {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .course-list {
+    display: none;
+  }
+
+  .learning {
+    background-color: white;
+  }
+
+  .mobcourse {
+    display: block;
+    margin: 0 1rem;
+  }
+
+  .mobcourse h3 {
+    background-color: rgba(159, 166, 189, 0.2);
+    padding: 1.5rem 0 1.5rem 1rem;
+    border-radius: 5px;
+  }
+
+
 }
 
 /*thesis content*/
