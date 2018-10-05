@@ -135,7 +135,7 @@ nav a {
 /*information*/
 .information {
   display: flex;
-  padding-right: 0.5rem;
+  padding-right: 1rem;
 }
 
 .big {
@@ -189,6 +189,10 @@ width: 100%;
   margin: 0.5rem 0 2rem 0;
 }
 
+.guest {
+  margin-bottom: 1.5rem;
+}
+
 .mobpic {
   display: none;
 }
@@ -228,7 +232,7 @@ width: 100%;
   }
 }
 
-@media only screen and (max-width: 800px) and (min-width: 480px) {
+@media only screen and (max-width: 810px) and (min-width: 480px) {
   .information {
     flex-direction: column;
     padding: 2rem 1.5rem;
@@ -297,9 +301,10 @@ width: 100%;
   display: flex;
   flex-flow: column wrap;
   margin: 0 1rem 1rem 1rem;
-  max-width: 535px;
+  max-width: 480px;
   background-color: white;
   border-left: rgba(255, 156, 52, 1) 2px solid;
+  flex-shrink: 1;
 }
 
 .course img {
@@ -332,7 +337,7 @@ width: 100%;
 
 }
 
-  @media only screen and (max-width: 1150px) and (min-width: 480px) {
+  @media only screen and (max-width: 1150px) and (min-width: 620px) {
     .learning {
       width: 100%;
     }
@@ -349,6 +354,12 @@ width: 100%;
     .course img {
       width: 100%;
       height: auto;
+    }
+  }
+
+  @media only screen and (min-width: 480px) and (max-width: 620px) {
+    .course {
+      width: 100%;
     }
   }
 
@@ -373,6 +384,7 @@ width: 100%;
 
 .thesis {
   margin-bottom: 2rem;
+  padding-right: 1rem;
 }
 
 .thesis h2 {
@@ -397,7 +409,7 @@ width: 100%;
   }
 }
 
-@media only screen and (max-width: 650px) and (min-width: 480px) {
+@media only screen and (max-width: 810px) and (min-width: 480px) {
   .exhibit {
     flex-direction: column;
     padding: 2rem 1.5rem;
@@ -405,6 +417,14 @@ width: 100%;
 
   .urban video {
     width: 100%;
+  }
+
+  .urban {
+    width: 100%;
+  }
+
+  .exhibit .small .box {
+    max-width: 45%;
   }
 }
 
