@@ -107,6 +107,7 @@ width: 100%;
 
 .small {
   width: 40%;
+  margin-top: 1rem;
 }
 
 .box {
@@ -117,7 +118,7 @@ width: 100%;
 .box img {
   height: auto;
   width: 35%;
-  margin: 1rem 1rem;
+  padding: 1rem 1rem;
 }
 
 .text a {
@@ -170,18 +171,22 @@ width: 100%;
   width: 60%;
 }
 
+.big video {
+  width: 100%;
+}
+
 .urban h3 {
 
 }
 
-.thesis {
+.exhibit {
   display: flex;
-  flex-direction: column;
 }
 
 .thesis h2 {
   margin: 2rem 0;
   font-size: 2.5rem;
+  text-align: center;
 }
 
 /*footer*/
@@ -189,12 +194,6 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 1rem 1.5rem 0 1.5rem;
-  height: 4rem;
+  height: 3rem;
   font-size: 0.75rem;
-}
-
-
-/*extra*/
-div {
-  border: blue 1px solid;
 }
